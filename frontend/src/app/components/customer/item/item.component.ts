@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-item',
@@ -6,11 +6,6 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./item.component.css']
 })
 export class ItemComponent implements OnInit {
-  
-  @Input() image = '';
-  @Input() name = '';
-  @Input() price = -1;
-  
 
   constructor() { }
 
